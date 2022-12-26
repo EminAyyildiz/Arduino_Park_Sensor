@@ -1,3 +1,5 @@
+// Written by Emin Ayyıldız
+
 int trig =9;
 int echo = 10;
 long sure;
