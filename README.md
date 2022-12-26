@@ -1,5 +1,5 @@
 # Arduino_Park_Sensor
-We design parking sensors using arduino uno together with ultrasonic distance sensor, buzzer, and leds.
+I design parking sensors using arduino uno together with ultrasonic distance sensor, buzzer, and leds.
 
 
 Bu projedeki temel amacım arduino uno kartı kullanarak HC-SR04 ultrasonik mesafe sensörü, buzzer, ve 5 adet farklı renklerdeki ledler kullanarak park sensörü yapmaktır. Bu sistemde kullanıcı seri monitörden cizmin sensöre olan uzaklığını görebilecektir. Bu sistem tasarlanırken kullancıya buzzer ile sessel bir uyarı, ledler ile görüntüsel bir uyarı verilmesi hedeflenmiştir. Cismin sensöre olan uzaklığı azaldıkça yanan led sayısı artmakta ve kullanıcı bu sayede yakınlaştığını anlamaktadır. Yine aynı şekilde cismin sensöre olan uzaklığı azaldıkça buzzer dan çıkan frekans değeri de değişemktedir. Bu sesleri atarken 'si-la-sol-fal' notalarını kullandım. Cisim sensöre gereğinden fazla yaklaştığında ise kullanılan 5 led sürekli olarak yanıp sönrek görsel bir uyarı vermektedir. 
