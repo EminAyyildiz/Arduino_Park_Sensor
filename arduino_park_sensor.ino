@@ -51,7 +51,7 @@ void loop()
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    digitalWrite(buzzer, 494);
+    tone(buzzer, 494);
   }
   else if(uzaklik<=100)
   {
@@ -60,7 +60,7 @@ void loop()
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    digitalWrite(buzzer, 440);
+    tone(buzzer, 440);
   
   }
   
@@ -71,7 +71,7 @@ void loop()
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH); 
-    digitalWrite(buzzer, 392);
+    tone(buzzer, 392);
   
   }
   
@@ -82,7 +82,7 @@ void loop()
     digitalWrite(led3,LOW);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    digitalWrite(buzzer, 349);
+    tone(buzzer, 349);
   
   }
   
@@ -93,7 +93,7 @@ void loop()
     digitalWrite(led3,LOW);
     digitalWrite(led4,LOW);
     digitalWrite(led5,HIGH);
-    digitalWrite(buzzer, 330);
+    tone(buzzer, 330);
       
   
   }
@@ -113,7 +113,7 @@ void loop()
     digitalWrite(led3,LOW);
     digitalWrite(led4,LOW);
     digitalWrite(led5,LOW);
-    digitalWrite(buzzer,LOW);
+    noTone(buzzer);
       
   
   }
