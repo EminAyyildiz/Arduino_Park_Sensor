@@ -5,6 +5,13 @@ int echo = 10;
 long sure;
 long uzaklik;
 
+#define Doo 262
+#define Re  294
+#define Mi  330
+#define Fa  349
+#define Sol 392
+
+
 int buzzer=13;
 
 int led1 =2, led2=3, led3=4, led4=5, led5=6;
@@ -51,7 +58,7 @@ void loop()
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    tone(buzzer, 494);
+    tone(buzzer, Doo);
   }
   else if(uzaklik<=100)
   {
@@ -60,7 +67,7 @@ void loop()
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    tone(buzzer, 440);
+    tone(buzzer, Re);
   
   }
   
@@ -71,7 +78,7 @@ void loop()
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH); 
-    tone(buzzer, 392);
+    tone(buzzer, Mi);
   
   }
   
@@ -82,7 +89,7 @@ void loop()
     digitalWrite(led3,LOW);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    tone(buzzer, 349);
+    tone(buzzer, Fa);
   
   }
   
@@ -93,7 +100,7 @@ void loop()
     digitalWrite(led3,LOW);
     digitalWrite(led4,LOW);
     digitalWrite(led5,HIGH);
-    tone(buzzer, 330);
+    tone(buzzer, Sol);
       
   
   }
